@@ -1,0 +1,39 @@
+.repo {
+  display: block;
+  width: 320px;
+  height: 200px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  background: white;
+  text-align: left;
+  margin: 1rem;
+}
+
+.repo .repo-title {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.repo .repo-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  height: calc(150px - 2rem);
+}
+
+.repo .repo-description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-size: 0.875rem;
+}
+
+.repo .repo-language-title {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}

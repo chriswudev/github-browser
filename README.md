@@ -1,2 +1,16 @@
-# github-browser
-Browse Github Repositories with Username
+# Github Browser
+## About
+
+Browse Github Repositories by Username
+
+### Used Libraries & Tools
+
+- Create React App
+
+### Setup project
+
+- `yarn install`
+
+### Run project
+
+- `yarn start`

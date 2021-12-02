@@ -1,0 +1,11 @@
+.search-result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-no-result {
+  padding-top: 20vh;
+  font-size: 1.5em;
+  font-weight: bold;
+}
